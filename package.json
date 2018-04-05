@@ -1,5 +1,5 @@
 {
-  "name": "matrix-display-store",
+  "name": "led-matrix",
   "version": "1.0.0",
   "description": "Utility for storing graphical data in a matrix",
   "main": "dist/index.js",
@@ -14,10 +14,10 @@
     "matrix",
     "led",
     "rgb",
-    "store",
+    "html5",
+    "canvas",
     "graphics",
-    "bitmap",
-    "fonts"
+    "bitmap"
   ],
   "author": "Sallar Kaboli <sallar.kaboli@gmail.com>",
   "license": "MIT",
