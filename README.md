@@ -15,11 +15,11 @@ $ yarn add led-matrix
 ## Usage
 
 ```js
-import { LEDMatrix } from 'led-matrix';
+import { LedMatrix } from 'led-matrix';
 import { createStore } from 'matrix-display-store';
 
 const store = createStore(32, 16);
-const matrix = new LEDMatrix(canvasElement, {
+const matrix = new LedMatrix(canvasElement, {
   x: 32,
   y: 16,
   // other options...

@@ -4,7 +4,7 @@
   "description": "Utility for storing graphical data in a matrix",
   "main": "dist/index.js",
   "scripts": {
-    "test": "ava",
+    "test": "npm run build && karmatic",
     "dev": "tsc --watch",
     "build": "tsc",
     "prepare": "npm run build"
@@ -32,6 +32,7 @@
     "matrix-display-store": "^1.0.0"
   },
   "devDependencies": {
+    "karmatic": "^1.0.6",
     "typescript": "^2.8.1"
   }
 }
