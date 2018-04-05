@@ -1,0 +1,28 @@
+{
+  "name": "matrix-display-store",
+  "version": "1.0.0",
+  "description": "Utility for storing graphical data in a matrix",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sallar/matrix-display-store.git"
+  },
+  "keywords": [
+    "matrix",
+    "led",
+    "rgb",
+    "store",
+    "graphics",
+    "bitmap",
+    "fonts"
+  ],
+  "author": "Sallar Kaboli <sallar.kaboli@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sallar/matrix-display-store/issues"
+  },
+  "homepage": "https://github.com/sallar/matrix-display-store#readme"
+}
