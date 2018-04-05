@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "noUnusedLocals": true,
+    "sourceMap": false,
+    "target": "es5",
+    "outDir": "./dist",
+    "lib": [
+      "es2015",
+      "dom"
+    ]
+  },
+  "files": [
+    "src/index.ts"
+  ],
+  "filesGlob": [
+      "./**/*.ts",
+      "!./node_modules/**/*.ts"
+  ]
+}
