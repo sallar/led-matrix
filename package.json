@@ -4,11 +4,14 @@
   "description": "Utility for storing graphical data in a matrix",
   "main": "dist/index.js",
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sallar/matrix-display-store.git"
+    "url": "git+https://github.com/sallar/led-matrix.git"
   },
   "keywords": [
     "matrix",
@@ -22,7 +25,13 @@
   "author": "Sallar Kaboli <sallar.kaboli@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sallar/matrix-display-store/issues"
+    "url": "https://github.com/sallar/led-matrix/issues"
   },
-  "homepage": "https://github.com/sallar/matrix-display-store#readme"
+  "homepage": "https://github.com/sallar/led-matrix#readme",
+  "dependencies": {
+    "matrix-display-store": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.8.1"
+  }
 }
