@@ -42,6 +42,12 @@ matrix.render();
 }
 ```
 
+## Related
+
++ [matrix-display-store](https://github.com/sallar/matrix-display-store)
++ [rpi-matrix](https://github.com/sallar/rpi-matrix)
++ [led-matrix-simulator](https://github.com/sallar/led-matrix-simulator)
+
 ## License
 
 Licensed under the [MIT License](LICENSE)
