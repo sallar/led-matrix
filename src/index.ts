@@ -40,8 +40,10 @@ export class LedMatrix {
     const height = this.opts.y * (this.opts.pixelHeight + this.opts.margin);
     this.canvas.width = width;
     this.canvas.height = height;
-    this.canvas.style.width = `${width / 2}px`;
-    this.canvas.style.height = `${height / 2}px`;
+    if (typeof this.canvas.style === 'object') {
+      this.canvas.style.width = `${width / 2}px`;
+      this.canvas.style.height = `${height / 2}px`;
+    }
   }
 
   render(): void {
