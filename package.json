@@ -32,7 +32,7 @@
     "matrix-display-store": "^1.0.0"
   },
   "devDependencies": {
-    "karmatic": "^1.0.6",
+    "karmatic": "^2.1.0",
     "typescript": "^2.8.1"
   }
 }
